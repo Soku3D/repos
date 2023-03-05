@@ -2,11 +2,8 @@
 
 int main()
 {
-	char hangul[2] = "가";
+	unsigned char hangul[2] = "가";
 
-	printf("%x", hangul[0]);
-	printf("%x", hangul[1]);
+	printf("%c%c", hangul[0], hangul[1]);
 
-
-	return 0;
 }

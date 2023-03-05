@@ -15,20 +15,31 @@
     scanf( " %f ", &db1 );
 */
 #include <stdio.h>
-#include <windows.h>
+
 int main(void)
 {
-    system("graftabl 437");
-    int iASCII, iEnter=0;
-    for(iASCII = 128; iASCII<256; iASCII++)
-    {
-        printf(" INDEX : %d, Char : %c ", iASCII, iASCII);
-        ++iEnter;
-
-        if(iEnter==5)
-        {
-            iEnter=0;
-            printf("\n");
-        }
-    }    
+    int N1, N2 ;
+    scanf( " %d %d ", &N1, &N2 );
+    
+    char ch4;
+    scanf( " %c \n ", &ch4 );
+    
+    char ch1, ch2 ;
+    scanf( "%c %c  ", &ch1, &ch2 );
+    
+    int N;
+    scanf( " 정수 : %d ", &N );
+    
+    char ch, N3 ;
+    scanf( " %c, %c ", &ch, &N3 );
+    
+    int L;
+    scanf( " %d ", &L );
+    
+    char ch3;
+    scanf( " 문자 : %c ", &ch3 );
+    
+    double db1 ;
+    scanf( " %lf ", &db1 );
+    
 }
