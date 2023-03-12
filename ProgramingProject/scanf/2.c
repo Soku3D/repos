@@ -29,15 +29,15 @@ int main(void)
 {
 	char ch = 98 ;
     printf( " %d ", ch );
-    printf( "\n");
+    printf( "98\n");
 
 	unsigned char ch = 256 ;
     printf( " %d ", ch );
-    printf( "\n");
+    printf( "0\n");
 
 	char ch = 'A' ;
     printf( " %d ", ch );
-    printf( "\n");
+    printf( "65\n");
 
 	char ch = 1000 ;
     printf( " %c ", ch );
@@ -45,11 +45,11 @@ int main(void)
 
 	unsigned int N = -1 ;
     printf( " %u, %d ", N, N );
-    printf( "\n");
+    printf( "4294967295, -1\n");
 
 	int N = -1 ;
     printf( " %u, %d ", N, N );
-    printf( "\n");
+    printf( "4294967295, -1\n");
 
 	long nBig = 1000000;
     short nSmall = nBig;
@@ -58,14 +58,14 @@ int main(void)
 
 	int N = 2109876543 ;
     printf( " %d ", N );
-    printf( "\n");
+    printf( "2109876543\n");
 
 	float fReal = 123.123456789123456789;
     printf( " %f, %.10f ", fReal, fReal );
-    printf( "\n");
+    printf( "123.123456, 123.1234567891\n");
 
 	double fReal = 123.123456789123456789 ;
     printf( " %f, %.10f ", fReal, fReal );
-    printf( "\n");
+    printf( "123.123456, 123.1234567891\n");
 
 }
